@@ -45,7 +45,7 @@ a { color: inherit; }
   align-items: center;
   justify-content: space-between;
   gap: 36px;
-  padding: 88px 0 94px;
+  padding: 56px 0 60px;
 }
 
 .intro-copy { min-width: 0; }
@@ -124,8 +124,8 @@ h2 {
   grid-template-columns: 46px minmax(0, 1fr) 30px;
   align-items: center;
   gap: 10px;
-  min-height: 89px;
-  padding: 12px 7px;
+  min-height: 74px;
+  padding: 9px 7px;
   border-bottom: 1px solid #d9e2dd;
   text-decoration: none;
 }
@@ -175,11 +175,11 @@ footer span { color: #dd5948; font-size: 18px; }
 @media (max-width: 640px) {
   .page { width: min(100% - 32px, 900px); }
   .site-header { min-height: 73px; }
-  .intro { align-items: flex-start; flex-direction: column-reverse; gap: 29px; padding: 54px 0 67px; }
+  .intro { align-items: flex-start; flex-direction: column-reverse; gap: 24px; padding: 34px 0 42px; }
   .avatar { width: 128px; height: 128px; }
   h1 { font-size: clamp(42px, 11vw, 62px); }
   .intro-line { margin-top: 18px; font-size: 17px; }
-  .project { grid-template-columns: 36px minmax(0, 1fr) 23px; min-height: 83px; }
+  .project { grid-template-columns: 36px minmax(0, 1fr) 23px; min-height: 70px; }
   .project-text { display: block; }
   .project-text strong, .project-text span { display: block; }
   .project-text strong { font-size: 18px; }
